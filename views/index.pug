@@ -1,0 +1,21 @@
+doctype
+html
+head
+	title Arukas Shadowsocks Share
+	link(href="./css/style.css" rel="stylesheet")
+body
+	#main
+		.header
+			h1 Arukas Shadowsocks Share
+		.content
+			.tips 注:由于Arukas的ip和端口号经常变化，请及时更新
+			each i in data
+				.item
+					h3 账号信息:
+					hr
+					code= '{"ip":'+i.ip+',"server_port":'+i.port+',"password":'+i.password+',"method":'+i.method+'}'
+					.ss(value=i.method+":"+i.password+"@"+i.ip+":"+i.port)
+	script(src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js")
+	script(src="//cdn.bootcss.com/jquery.qrcode/1.0/jquery.qrcode.min.js")
+	script(src="//cdn.bootcss.com/Base64/1.0.0/base64.min.js")
+	script(src="./js/main.js")

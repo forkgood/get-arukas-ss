@@ -1,0 +1,34 @@
+{
+  "name": "get-arukas-ss",
+  "version": "1.0.0",
+  "description": "get arukas ss information",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "morgan": "~1.7.0",
+    "pug": "~2.0.0-beta10",
+    "serve-favicon": "~2.3.2",
+    "superagent": "^3.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoyaojy/get-arukas-ss.git"
+  },
+  "keywords": [
+    "arukas",
+    "ss"
+  ],
+  "author": "Leo Angel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoyaojy/get-arukas-ss/issues"
+  },
+  "homepage": "https://github.com/leoyaojy/get-arukas-ss#readme"
+}

@@ -1,0 +1,60 @@
+* {
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 1em;
+    text-align: center;
+    color: #369;
+    border-bottom: 2px dotted gray;
+}
+
+.header h1 {
+    font-size: 1.5em;
+}
+
+.tips {
+    margin: 1em 0;
+    color: red;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content h3 {
+    font-size: .85em;
+    margin-bottom: .5em;
+}
+
+hr {
+    border: 2px solid purple;
+}
+
+code {
+    font-size: .75em;
+    display: block;
+    margin: .5em 0;
+    padding: .5em;
+    letter-spacing: 1px;
+    color: #333;
+    background: rgb(230, 230, 230);
+}
+
+.item {
+    margin-bottom: 3em;
+}
+
+.ss {
+    width: 300px;
+    height: 300px;
+    margin-top: 1.5em;
+}
